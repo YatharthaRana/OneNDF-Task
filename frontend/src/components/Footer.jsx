@@ -21,19 +21,19 @@ function Footer() {
           </div>
           <div className="col-lg-3 col-md-6">
             {/* Contact Us */}
-            <h3>Contact Us</h3>
-            <ul className="list-unstyled">
+            <h3 className='heading'>Contact Us</h3>
+            <ul className="list-unstyled-contact">
               <li><a href="#">+91 9876543210</a></li>
               <li><a href="#">onendf@gmail.com</a></li>
             </ul>
           </div>
           <div className="col-lg-3 col-md-6">
             {/* Follow Us */}
-            <h3>Follow Us</h3>
-            <ul className="list-unstyled">
-              <li><a href="#"><FaFacebook className='footer-icons' style={{ fontSize: '24px' }} /></a></li>
-              <li><a href="#"><FaInstagram className='footer-icons' style={{ fontSize: '24px' }} /></a></li>
-              <li><a href="#"><FaLinkedin className='footer-icons' style={{ fontSize: '24px' }} /></a></li>
+            <h3 className='heading'>Follow Us</h3>
+            <ul className="list-unstyled-icons">
+              <li><a href="#"><FaFacebook className='footer-icons' /></a></li>
+              <li><a href="#"><FaInstagram className='footer-icons' /></a></li>
+              <li><a href="#"><FaLinkedin className='footer-icons' /></a></li>
             </ul>
           </div>
 

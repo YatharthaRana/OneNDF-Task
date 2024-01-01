@@ -30,7 +30,7 @@ const Navigationbar = () => {
       <div className="left-section">
         <div className="welcome-text">Welcome, {name}</div>
       </div>
-      <div className="right-section">
+      <div className="right-section-1">
       <img className='logo' src={logo} alt="OneNDF" />
         <a href="/">Home</a>
         <a href="/about">About</a>

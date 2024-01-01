@@ -12,7 +12,7 @@
   }
   
   .left-section {
-    display: flex;
+    display: inline;
     align-items: center;
   }
   
@@ -28,7 +28,7 @@
   }
   
   .right-section {
-    display: flex;
+    display: inline;
     align-items: center;
     margin-right: 2rem;
   }
@@ -49,5 +49,26 @@
     text-decoration: none;
     font-size: 1.1rem;
     font-weight: 300;
+  }
+
+  @media screen and (max-width:768px) {
+    .signup-button{
+      font-size: 0.5rem;
+    }
+    .logo{
+      max-width: 40px;
+    }
+    .tabs{
+      gap:5px
+    }
+    .tabs a{
+      font-size: 8px;
+    }
+    .navbar{
+      display: inline;
+    }
+    .right-section{
+      display: inline;
+    }
   }
   

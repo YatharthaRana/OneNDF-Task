@@ -34,27 +34,34 @@
   }
   
   /* Contact Us */
-  ul.list-unstyled li {
+  ul.list-unstyled-contact li {
     margin-bottom: 10px;
+    list-style: none;
   }
   
-  ul.list-unstyled a {
+  ul.list-unstyled-contact a {
     color: #333;
     text-decoration: none;
     font-weight: 500;
+    margin-left: -30px;
 
   }
   
   /* Follow Us */
-  ul.list-unstyled li a {
+
+  ul.list-unstyled-icons li{
+    list-style: none;
+  }
+  ul.list-unstyled-icons li a {
     color: #333;
     
   }
   
   .footer-icons {
     margin-right: 10px;
-    margin-left: 2rem;
-
+    margin-left: 1rem;
+    margin-bottom: 10px;
+    font-size: 24px;
   }
   
   /* Copyright */
@@ -73,10 +80,59 @@
   }
   
   /* Responsive styles for smaller screens */
-  @media screen and (max-width: 768px) {
-    .col-lg-3 {
-      flex: 0 0 calc(50% - 30px);
-      max-width: calc(50% - 30px);
+  @media screen and (max-width:768px) {
+    .row{
+      gap: 2px;
+      
     }
+    .footer{
+      padding: 10px 0;
+    }
+    .address {
+      font-size: 8px;
+      margin-top: -20px;
+    }
+    .company-logo {
+      max-width: 80px;
+    }
+
+    ul.list-unstyled-contact li {
+      margin-bottom: -10px;
+    }
+    
+    ul.list-unstyled-contact a {
+      font-weight: 400;
+      font-size: 8px;
+      text-decoration: none;
+      margin-top: -50px;
+  
+    }
+
+    .row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      justify-content: space-between;
+    }
+
+    .footer-icons{
+      margin-right: 2rem;
+      margin-top: 5px;
+      margin-left: -10px;
+      font-size: 15px;
+    }
+
+    .heading{
+      font-size: 10px;
+    }
+
+    .copyright {
+      text-align: center;
+      color: black;
+      font-size: 10px;
+      font-weight: 500;
+    }
+    
+    
   }
   

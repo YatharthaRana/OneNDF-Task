@@ -54,4 +54,21 @@ form {
   }
   
   /* Add media queries for responsive design if needed */
+  @media screen and (max-width:768px) {
+    form{
+      font-weight: 300;
+      font-size: 10px;
+      max-width: 300px;
+    }
+    input,select{
+      width: 16.5rem;
+    }
+
+    .submit{
+      font-size: 0.5rem;
+    }
+
+    
+
+  }
   
