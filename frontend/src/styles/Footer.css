@@ -1,0 +1,82 @@
+/* Footer.css */
+
+.footer {
+    background-color: #f8f9fa; /* Light background color */
+    padding: 50px 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: space-between;
+  }
+  
+  .col-lg-3 {
+    flex: 0 0 calc(25% - 30px);
+    max-width: calc(25% - 30px);
+  }
+  
+  /* Company Name and Logo */
+  .company-logo {
+    max-width: 100px; /* Adjust the max-width as needed */
+    margin-bottom: 20px;
+  }
+  
+  .address {
+    font-size: 14px;
+    color: #555;
+  }
+  
+  /* Contact Us */
+  ul.list-unstyled li {
+    margin-bottom: 10px;
+  }
+  
+  ul.list-unstyled a {
+    color: #333;
+    text-decoration: none;
+    font-weight: 500;
+
+  }
+  
+  /* Follow Us */
+  ul.list-unstyled li a {
+    color: #333;
+    
+  }
+  
+  .footer-icons {
+    margin-right: 10px;
+    margin-left: 2rem;
+
+  }
+  
+  /* Copyright */
+  .separator {
+    width: 100%;
+    height: 1px;
+    /* background-color: #ddd; */
+    background-color: rgb(86, 83, 83);
+  }
+  
+  .copyright {
+    text-align: center;
+    color: black;
+    font-size: 14px;
+    font-weight: 500;
+  }
+  
+  /* Responsive styles for smaller screens */
+  @media screen and (max-width: 768px) {
+    .col-lg-3 {
+      flex: 0 0 calc(50% - 30px);
+      max-width: calc(50% - 30px);
+    }
+  }
+  
